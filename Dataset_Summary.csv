@@ -1,0 +1,10 @@
+Metric,Value
+Total Images,1768
+Total Classes,16
+Duplicate Images,0
+Corrupted Images,0
+Average Width,640.0
+Average Height,640.0
+Largest Class, moderate-ventriculomegaly
+Smallest Class, vein-of-galen
+Imbalance Ratio,62.8

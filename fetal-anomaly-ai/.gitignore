@@ -1,0 +1,108 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.egg
+
+# Testing & Linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==========================================
+# Large Model Weights / Checkpoints (>50MB)
+# Note: GitHub warns on >50MB and rejects >100MB.
+# Host weights on HuggingFace / GitHub Releases or use Git LFS.
+# ==========================================
+*.pth
+*.pt
+*.bin
+*.h5
+*.hdf5
+*.onnx
+*.safetensors
+*.ckpt
+*.pkl
+*.joblib
+!backend/models/.gitkeep
+
+# ==========================================
+# Generated Outputs, Uploads & Grad-CAM Images
+# ==========================================
+**/outputs/gradcam/*.png
+**/outputs/gradcam/*.jpg
+**/outputs/gradcam/*.jpeg
+backend/outputs/gradcam/*
+!backend/outputs/gradcam/.gitkeep
+outputs/
+backend/outputs/*
+!backend/outputs/.gitkeep
+
+# ==========================================
+# Node & Next.js (Frontend)
+# ==========================================
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+.vercel
+*.tsbuildinfo
+next-env.d.ts.bak
+
+# Logs & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env.local
+frontend/.env*.local
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini

@@ -1,0 +1,8 @@
+{
+    "Train Images": 1418,
+    "Validation Images": 174,
+    "Test Images": 176,
+    "Classes": 16,
+    "Batch Size": 16,
+    "Image Size": "224x224"
+}
